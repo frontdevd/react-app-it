@@ -1,4 +1,6 @@
 import React from "react";
+import '../Navbar/Navbar.module.css';
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
@@ -11,15 +13,7 @@ const Profile = () => {
             <div>
                 ava + desc
             </div>
-            <div>
-                my posts
-                <div>new posts </div>
-                <div>
-                    <div>post1</div>
-                    <div>post2</div>
-                    <div>post3</div>
-                </div>
-            </div>
+            <MyPosts/>
         </div>)
 };
 
