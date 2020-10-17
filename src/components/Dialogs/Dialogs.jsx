@@ -4,7 +4,7 @@ import './Dialogs.module.css';
 const Dialogs = (props) => {
     return (
         <div>
-           dialogs
+           <h1>Dialogs</h1>
         </div>)
 };
 
